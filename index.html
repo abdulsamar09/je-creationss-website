@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J.E. Creations | Built on Flavor. Driven by Culture.</title>
+    <meta name="description" content="J.E. Creations — Seasonings, Private Chef Experiences, and Culture-Driven Creations. Built on Flavor. Driven by Culture.">
+    
+    <!-- Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@800&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container nav-inner">
+            <a href="#" class="logo">
+                <img src="assets/logo__2_-removebg-preview (1).png" alt="J.E. Creations Logo" style="height: 80px;">
+            </a>
+            
+            <div class="nav-toggle" id="mobile-menu-btn">
+                <span></span>
+                <span></span>
+            </div>
+
+            <ul class="nav-links" id="nav-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#offerings">Service</a></li>
+                <li><a href="#seasonings">Menu</a></li>
+                <li><a href="#">Shop</a></li>
+            </ul>
+            <a href="#cta" class="btn nav-btn">Contact Now</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-video-bg">
+            <video autoplay muted loop playsinline>
+                <source src="assets/WhatsApp Video 2026-04-21 at 4.12.52 PM.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="container hero-content text-center reveal">
+            <span class="hero-brand-label">J.E. CREATIONS</span>
+            <h1 class="hero-heading">WHERE FLAVOR</h1>
+            <div class="hero-accent-box">
+                <span class="hero-accent-text">MEETS CULTURE</span>
+            </div>
+            <a href="#offerings" class="btn">Explore the Experience</a>
+        </div>
+    </section>
+
+    <!-- What We Offer Slider -->
+    <section id="offerings" class="offerings-slider">
+        <div class="container">
+            <div class="slider-header-split reveal">
+                <div class="slider-header-left">
+                    <p class="slider-eyebrow">WHAT WE OFFER</p>
+                    <h2 class="slider-title">OUR <span>SERVICES</span></h2>
+                </div>
+                <div class="slider-header-right">
+                    <p class="slider-sub-white">From intimate private dinners to large-scale events, we tailor every experience to perfection.</p>
+                </div>
+            </div>
+            
+            <div class="slider-container-outer">
+                <button class="slider-arrow prev-arrow" id="prev-btn" aria-label="Previous">❮</button>
+                <button class="slider-arrow next-arrow" id="next-btn" aria-label="Next">❯</button>
+                <div class="slider-track" id="slider-track">
+                    <!-- Item 1: Seasonings -->
+                    <div class="service-card">
+                        <div class="service-card-img">
+                            <img src="https://images.unsplash.com/photo-1532336414038-cf19250c5757?auto=format&fit=crop&q=80&w=1000" alt="Seasonings">
+                        </div>
+                        <div class="service-card-body">
+                            <h3>SIGNATURE SEASONINGS</h3>
+                            <p>Bold flavors. Premium blends. Made with purpose.</p>
+                            <a href="#seasonings" class="read-more">Read More <span>⤷</span></a>
+                        </div>
+                    </div>
+
+                    <!-- Item 2: Private Chef -->
+                    <div class="service-card">
+                        <div class="service-card-img">
+                            <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=80&w=1000" alt="Private Chef">
+                        </div>
+                        <div class="service-card-body">
+                            <h3>PRIVATE CHEF EXPERIENCE</h3>
+                            <p>Elevated dining experiences crafted just for you.</p>
+                            <a href="#cta" class="read-more">Read More <span>⤷</span></a>
+                        </div>
+                    </div>
+
+                    <!-- Item 3: Loaded Lansky's -->
+                    <div class="service-card">
+                        <div class="service-card-img">
+                            <img src="https://images.unsplash.com/photo-1565123409695-7b5ef63a2efb?auto=format&fit=crop&q=80&w=1000" alt="Food Truck">
+                        </div>
+                        <div class="service-card-body">
+                            <h3>LOADED LANSKY’S</h3>
+                            <p>Street-inspired flavor on wheels. Big portions. Bigger vibes.</p>
+                            <a href="#cta" class="read-more">Read More <span>⤷</span></a>
+                        </div>
+                    </div>
+
+                    <!-- Item 4: Apparel -->
+                    <div class="service-card">
+                        <div class="service-card-img">
+                            <img src="https://images.unsplash.com/photo-1534215754734-18e55d13e346?auto=format&fit=crop&q=80&w=1000" alt="Apparel">
+                        </div>
+                        <div class="service-card-body">
+                            <div class="coming-soon-badge">Coming Soon</div>
+                            <h3>APPAREL & CULTURE</h3>
+                            <p>Wear the culture. Represent the flavor. High-end streetwear.</p>
+                            <a href="#" class="read-more">Read More <span>⤷</span></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Navigation Dots -->
+                <div class="slider-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-street reveal">
+        <div class="container about-street-inner">
+            <div class="about-image-wrap">
+                <img src="assets/Je creation.png" alt="J.E. Creations Brand" class="about-brand-img">
+            </div>
+            <div class="about-street-content">
+                <h2 class="about-title">About J.E. Creations</h2>
+                <div class="about-text">
+                    <p>J.E. Creations was built on a simple foundation: <span>flavor, culture, and craft.</span></p>
+                    <p>What started as a passion for creating memorable food experiences has evolved into a multi-faceted lifestyle brand rooted in creativity and purpose.</p>
+                    <p>From bold, thoughtfully crafted seasonings to elevated private chef experiences, <span>every detail is intentional.</span> Every creation tells a story.</p>
+                    <p>J.E. Creations isn’t just about food—it’s about expression, culture, and connection.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Decorative street element -->
+        <div class="street-watermark">FLAVOR & CULTURE</div>
+    </section>
+
+    <!-- Seasonings Section -->
+    <section id="seasonings" class="seasonings">
+        <div class="container seasonings-flex">
+            <div class="seasonings-image reveal">
+                <!-- Using existing asset for seasoning -->
+                <img src="assets/download (5).png" alt="Premium Seasoning Bottles">
+            </div>
+            <div class="seasonings-content reveal">
+                <h2>Crafted to Elevate Every Dish</h2>
+                <p>Premium blends made with high-quality ingredients, designed to bring bold flavor and clean finish to every bite.</p>
+                <a href="#cta" class="btn">Explore Seasonings</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Apparel Section -->
+    <section class="apparel">
+        <div class="container apparel-grid">
+            <div class="apparel-content reveal">
+                <h2>Wear the<br>Culture</h2>
+                <p>Coming Soon</p>
+            </div>
+            <div class="apparel-image reveal">
+                <!-- Premium streetwear placeholder -->
+                <img src="https://images.unsplash.com/photo-1534215754734-18e55d13e346?auto=format&fit=crop&q=80&w=1000" alt="Apparel Preview">
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section id="cta" class="cta reveal">
+        <div class="container">
+            <h2 class="cta-title">Be the First to Experience J.E. Creations</h2>
+            <div class="email-capture">
+                <input type="email" placeholder="Enter your email address" aria-label="Email address">
+                <button class="btn">Coming Soon</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-bg-wrap">
+            <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&q=80&w=2000" alt="Premium Kitchen Background" class="footer-bg-img">
+            <div class="footer-overlay"></div>
+        </div>
+        
+        <div class="container footer-content">
+            <div class="footer-grid">
+                <!-- Branding Column -->
+                <div class="footer-col footer-branding">
+                    <img src="assets/logo__2_-removebg-preview (1).png" alt="J.E. Creations Logo" class="footer-logo">
+                    <p class="footer-desc">Behind the word mountains, far from the countries Vokalia and Consonantia, there</p>
+                    <div class="footer-socials">
+                        <a href="#" aria-label="Facebook" class="social-icon">f</a>
+                        <a href="#" aria-label="Instagram" class="social-icon">i</a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-col">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About J.E Creations</a></li>
+                        <li><a href="#seasonings">Seasonings</a></li>
+                        <li><a href="#offerings">Apparel / Shop</a></li>
+                        <li><a href="#cta">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div class="footer-col">
+                    <h3 class="footer-title">Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Catering</a></li>
+                        <li><a href="#">Personal Chef</a></li>
+                        <li><a href="#">Custom Menus</a></li>
+                        <li><a href="#">Food Truck</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="footer-col">
+                    <h3 class="footer-title">Contact Info</h3>
+                    <ul class="footer-contact">
+                        <li><span class="icon">📞</span> (555) 123-4567</li>
+                        <li><span class="icon">📍</span> Los Angeles, California</li>
+                        <li><span class="icon">✉️</span> Info@Jecreations.Com</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 J.E. Creations. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
