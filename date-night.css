@@ -625,11 +625,11 @@
 
 @media (max-width: 768px) {
     .serif-title {
-        font-size: 28px;
+        font-size: 28px !important;
     }
 
     .date-night-cta .cta-title {
-        font-size: 28px;
+        font-size: 28px !important;
     }
 
     .moments-title {
@@ -642,7 +642,7 @@
     }
 
     .experience-grid p {
-        font-size: 15px;
+        font-size: 15px !important;
     }
 
     h2.serif-title.gold-gradient-text {
@@ -1255,7 +1255,7 @@
     }
 
     .date-night-hero .hero-title {
-        font-size: 28px;
+        font-size: 28px !important;
     }
 
     .cta-content-inner {
@@ -1265,7 +1265,7 @@
     }
 
     .date-night-hero .hero-subtext {
-        font-size: 16px;
+        font-size: 16px !important;
         padding: 0 15px;
     }
 
