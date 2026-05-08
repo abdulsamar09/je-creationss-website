@@ -1066,7 +1066,7 @@
 }
 
 .date-night-cta .cta-title {
-    font-family: var(--font-heading);
+    font-family: var(--font-heading) !Important;
   text-transform: uppercase;
   font-size: 5rem;
   font-weight: normal !important;
