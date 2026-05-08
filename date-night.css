@@ -356,7 +356,7 @@ text-transform: uppercase;
     justify-content: center;
   }
   .serif-title {
-    font-size:2.5rem;
+    font-size:2rem;
   }
       .date-night-cta .cta-title {
     font-size:2rem;
@@ -615,7 +615,31 @@ text-transform: uppercase;
     grid-template-columns: 1fr;
   }
 }
+@media (max-width: 786px) {
+.serif-title {
+    font-size:2rem;
+  }
+      .date-night-cta .cta-title {
+    font-size:2rem;
+  }
+    .moments-title  {
+    font-size:2rem !important;
+  }
+  .experience-statement p {
+    font-size: 22px !important;
+    margin: 0px !important;
+}
+  .experience-grid p {
+    font-size:16px;
+}
+  h2.serif-title.gold-gradient-text{
+    font-size:2rem !important;
+  }
+  a.back-to-home{
+        font-size:14px;
+  }
 
+}
 .includes-list li {
   font-size: 0.95rem;
   opacity: 0.9;
