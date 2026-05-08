@@ -40,11 +40,13 @@
 }
 
 .serif-title {
-  font-family: var(--font-heading);
-  font-size: 3rem;
+ font-family: var(--font-heading);
+    font-size: 3rem;
+  Text-transform:capitilize;
   font-weight: 300;
   line-height: 1.2;
   margin-bottom: 30px;
+text-transform: uppercase;
 }
 
 /* --- Navigation Overrides --- */
@@ -352,6 +354,28 @@
   .feature-strip-item {
     width: 100%;
     justify-content: center;
+  }
+  .serif-title {
+    font-size:2.5rem;
+  }
+      .date-night-cta .cta-title {
+    font-size:2rem;
+  }
+    .moments-title  {
+    font-size:2rem !important;
+  }
+  .experience-statement p {
+    font-size: 22px !important;
+    margin: 0px !important;
+}
+  .experience-grid p {
+    font-size:16px;
+}
+  h2.serif-title.gold-gradient-text{
+    font-size:2rem !important;
+  }
+  a.back-to-home{
+        font-size:14px;
   }
 }
 
