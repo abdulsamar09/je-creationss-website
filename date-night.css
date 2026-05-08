@@ -1066,7 +1066,7 @@
 }
 
 .date-night-cta .cta-title {
-  font-family: 'Cluisher Brush', sans-serif !important;
+    font-family: var(--font-heading);
   text-transform: uppercase;
   font-size: 5rem;
   font-weight: normal !important;
