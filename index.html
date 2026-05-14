@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J.E. Creations | Built on Flavor. Driven by Culture.</title>
+    <meta name="description" content="J.E. Creations — Seasonings. Private Chef Experiences. Culture-Driven Creations.">
+
+    <!-- Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @font-face {
+            font-family: 'Block Burst';
+            src: url('assets/block-burst-font/Blockburst-z83ZL.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        /* Apply only to main display headings */
+        .hero-brand,
+        .section-title,
+        .showcase-title,
+        .cta-title {
+            font-family: 'Block Burst' !important;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container nav-inner">
+            <a href="index.html" class="logo">
+                <img src="assets/logo__2_-removebg-preview (1).png" alt="J.E. Creations Logo">
+            </a>
+
+            <ul class="nav-links" id="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li class="nav-dropdown">
+                    <a href="catering-menu.html" class="dropdown-toggle">Catering <i
+                            class="fa-solid fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="catering-menu.html#gathering-board">The Gathering Board</a></li>
+                        <li><a href="catering-menu.html#tuscan-table">Tuscan Table Experience</a></li>
+                        <li><a href="catering-menu.html#comfort-table">The Comfort Table</a></li>
+                        <li><a href="catering-menu.html#cantina-experience">The Cantina Experience</a></li>
+                        <li><a href="catering-menu.html#umami-table">The Umami Table</a></li>
+                        <li><a href="catering-menu.html#harvest-table">Harvest Table</a></li>
+                        <li><a href="catering-menu.html#loaded-table">The Loaded Table</a></li>
+                    </ul>
+                </li>
+                <li><a href="date-night.html">Date Night</a></li>
+                <li class="nav-btn-mobile"><a href="#cta" class="btn nav-btn-orange">Inquire Now</a></li>
+            </ul>
+
+            <div class="nav-right-wrap">
+                <div class="nav-btn-wrap hide-mobile luxury-gap">
+                    <a href="#cta" class="btn nav-btn-orange">Inquire Now</a>
+                </div>
+                <!-- Premium Hamburger Toggle -->
+                <div class="nav-toggle nav-toggle-orange" id="mobile-toggle">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 1. Hero Section -->
+    <header class="hero">
+        <div class="hero-video-bg">
+            <img src="assets/104770.jpg" alt="Hero Background"
+                style="width: 100%; height: 100%; object-fit: cover; filter: brightness(0.5);">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="container hero-content reveal">
+            <h1 class="hero-brand">J<span class="dot-fix">.</span>E<span class="dot-fix">.</span> CREATIONS</h1>
+            <p class="hero-tagline">Built on Flavor. Driven by Culture.</p>
+            <p class="hero-subline">Seasonings. Private Chef Experiences. Culture-Driven Creations.</p>
+            <div class="hero-actions">
+                <button class="btn btn-coming-soon">Coming Soon</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Marquee Banner -->
+    <div class="marquee-wrapper" style="display: none;">
+        <div class="marquee-content">
+            <!-- Set 1 -->
+            <span class="marquee-item"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path
+                        d="M8.5 14.5A2.5 2.5 0 0011 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 11-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 002.5 2.5z">
+                    </path>
+                </svg> Built on Flavor</span>
+            <span class="dot">✦</span>
+            <span class="marquee-item"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="2" y1="12" x2="22" y2="12"></line>
+                    <path
+                        d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                    </path>
+                </svg> Driven by Culture</span>
+            <span class="dot">✦</span>
+            <span class="marquee-item"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                    </polygon>
+                </svg> Private Chef Experiences</span>
+            <span class="dot">✦</span>
+            <span class="marquee-item"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path>
+                    <line x1="2" y1="22" x2="11" y2="13"></line>
+                </svg> Artisanal Seasonings</span>
+            <span class="dot">✦</span>
+            <!-- Set 2 -->
+            <span class="marquee-item"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path
+                        d="M8.5 14.5A2.5 2.5 0 0011 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 11-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 002.5 2.5z">
+                    </path>
+                </svg> Built on Flavor</span>
+            <span class="dot">✦</span>
+            <span class="marquee-item"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="2" y1="12" x2="22" y2="12"></line>
+                    <path
+                        d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                    </path>
+                </svg> Driven by Culture</span>
+            <span class="dot">✦</span>
+            <span class="marquee-item"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                    </polygon>
+                </svg> Private Chef Experiences</span>
+            <span class="dot">✦</span>
+            <span class="marquee-item"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path>
+                    <line x1="2" y1="22" x2="11" y2="13"></line>
+                </svg> Artisanal Seasonings</span>
+            <span class="dot">✦</span>
+            <!-- Set 3 -->
+            <span class="marquee-item"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path
+                        d="M8.5 14.5A2.5 2.5 0 0011 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 11-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 002.5 2.5z">
+                    </path>
+                </svg> Built on Flavor</span>
+            <span class="dot">✦</span>
+            <span class="marquee-item"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="2" y1="12" x2="22" y2="12"></line>
+                    <path
+                        d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                    </path>
+                </svg> Driven by Culture</span>
+            <span class="dot">✦</span>
+            <span class="marquee-item"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                    </polygon>
+                </svg> Private Chef Experiences</span>
+            <span class="dot">✦</span>
+            <span class="marquee-item"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path>
+                    <line x1="2" y1="22" x2="11" y2="13"></line>
+                </svg> Artisanal Seasonings</span>
+            <span class="dot">✦</span>
+        </div>
+    </div>
+
+
+    <!-- 2. What We Offer -->
+    <section id="offerings" class="offerings reveal">
+        <div class="offerings-watermark">CULTURE</div>
+
+        <!-- Premium Background Element -->
+        <div class="bg-element bg-element-1">
+            <svg width="600" height="600" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M50 0L52.5 40L90 10L60 45L100 50L60 55L90 90L52.5 60L50 100L47.5 60L10 90L40 55L0 50L40 45L10 10L47.5 40L50 0Z"
+                    fill="currentColor" />
+            </svg>
+        </div>
+
+        <div class="container">
+            <div class="section-header">
+                <span class="section-sub">02 // THE PORTFOLIO</span>
+                <h2 class="section-title">Elevated Creations</h2>
+            </div>
+        </div>
+
+        <div class="offerings-grid">
+            <div class="offering-item">
+                <span class="offering-num">01.</span>
+                <div class="offering-icon">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path
+                            d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                    </svg>
+                </div>
+                <h3>Seasonings</h3>
+                <p>Artisanal blends crafted for the modern palate.</p>
+                <div class="status">Live Soon</div>
+            </div>
+
+            <div class="offering-item">
+                <span class="offering-num">02.</span>
+                <div class="offering-icon">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path
+                            d="M6 13.87A4 4 0 0 1 7.41 6a5.11 5.11 0 0 1 1.05-1.54 5 5 0 0 1 7.08 0A5.11 5.11 0 0 1 16.59 6 4 4 0 0 1 18 13.87V21H6v-7.13z" />
+                        <path d="M18 21l-4-4" />
+                        <path d="M6 21l4-4" />
+                    </svg>
+                </div>
+                <h3>Private Chef</h3>
+                <p>Bespoke culinary experiences in your private space.</p>
+                <a href="date-night.html" class="status">View Experience</a>
+            </div>
+
+            <div class="offering-item">
+                <span class="offering-num">03.</span>
+                <div class="offering-icon">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path
+                            d="M20.38 3.46L16 2L11 3.5L6 2L1.62 3.46c-.41.14-.62.58-.51.99l2 8c.08.32.37.55.7.55h2.19l1.5 8.25c.06.33.35.56.69.56h7.62c.34 0 .63-.23.69-.56L18 13h2.19c.33 0 .62-.23.7-.55l2-8c.11-.41-.1-.85-.51-.99z" />
+                    </svg>
+                </div>
+                <h3>Apparel</h3>
+                <p>Culture-driven style for the intentional individual.</p>
+                <div class="status">Coming Soon</div>
+            </div>
+
+            <div class="offering-item">
+                <span class="offering-num">04.</span>
+                <div class="offering-icon">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10" />
+                        <path d="M12 8l4 4-4 4M8 12h8" />
+                    </svg>
+                </div>
+                <h3>Loaded Lansky's</h3>
+                <p>Food Truck Concept.</p>
+                <div class="status">Coming Soon</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. About Section -->
+    <section id="about" class="about reveal">
+        <!-- Premium Background Element -->
+        <div class="bg-element bg-element-2">
+            <svg width="400" height="400" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="50" cy="50" r="48" stroke="currentColor" stroke-width="1" stroke-dasharray="4 4" />
+                <circle cx="50" cy="50" r="30" stroke="currentColor" stroke-width="0.5" />
+            </svg>
+        </div>
+
+        <div class="container about-inner" style="text-align: center;">
+            <div class="section-header" style="text-align: center; margin-bottom: 60px; width: 100%;">
+                <span class="section-sub">03 // OUR STORY</span>
+                <h2 class="section-title">About J<span class="dot-fix">.</span>E<span class="dot-fix">.</span> Creations
+                </h2>
+            </div>
+            <div class="about-image-wrap">
+                <img src="assets/Jade Turner.png" alt="J.E. Creations Brand" class="about-brand-img">
+            </div>
+            <div class="about-content">
+                <p class="about-text">
+                    J.E. Creations was built on a simple foundation: <span
+                        style="color: var(--muted-olive); font-weight: 900; font-style: normal;">flavor, culture, and
+                        craft.</span>
+                </p>
+                <div class="about-divider"></div>
+                <p class="about-text">
+                    What started as a passion for creating memorable food experiences has grown into a multi-faceted
+                    brand rooted in creativity and purpose. From bold, thoughtfully crafted seasonings to elevated
+                    private chef experiences, J.E. Creations is where culinary artistry meets lifestyle.
+                </p>
+
+                <div id="more-about" class="more-content">
+                    <br>
+                    <p class="about-text">
+                        Every detail matters—from the way flavors are layered to how each product and experience is
+                        presented. Whether it’s through a signature spice blend, a curated dining experience, or future
+                        ventures in apparel and hospitality, the goal remains the same: to create something that feels
+                        authentic, intentional, and unforgettable.
+                    </p>
+                    <br>
+                    <p class="about-text">
+                        J.E. Creations isn’t just about food—it’s about expression. It’s about bringing people together,
+                        telling stories through flavor, and building something that reflects both culture and
+                        individuality.
+                    </p>
+                    <br>
+                    <p class="about-text" style="font-weight: 700; color: var(--muted-olive);">
+                        Built on Flavor. Driven by Culture.
+                    </p>
+                </div>
+
+                <button id="read-more-btn" class="btn"
+                    style="margin-top: 30px; display: inline-flex; align-items: center; justify-content: center; gap: 10px;">
+                    <span>Read More</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M6 9l6 6 6-6" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3b. Visual Showcase -->
+    <section class="premium-showcase reveal">
+        <div class="showcase-watermark">JE</div>
+        <div class="container showcase-grid">
+            <div class="showcase-content-left">
+                <div class="showcase-badge">
+                    <span class="badge-dot"></span>
+                    THE COLLECTION
+                </div>
+                <h2 class="showcase-title">
+                    <span class="title-line-1">Flavor is our</span>
+                    <span class="title-line-2">Culture.</span>
+                </h2>
+                <div class="showcase-divider"></div>
+                <p class="showcase-desc">Every blend is built on flavor, driven by culture, and made on purpose. The
+                    definitive intersection of culinary art and lifestyle.</p>
+                <div class="showcase-action">
+                    <a href="#cta" class="btn nav-btn">Explore Collection</a>
+                </div>
+            </div>
+            <div class="showcase-image-right">
+                <div class="image-glow-orb"></div>
+                <div class="image-wrapper">
+                    <img src="assets/download (5).png" alt="J.E. Creations Seasoning Labels" class="showcase-img">
+                    <div class="image-corner-accent top-left"></div>
+                    <div class="image-corner-accent bottom-right"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Testimonials -->
+    <section id="testimonials" class="testimonials reveal">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-sub">04 // VOICES</span>
+                <h2 class="section-title">The Hearsay</h2>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="quote-icon">“</div>
+                    <p class="testimonial-text">
+                        The seasonings are transformative. Every dish feels like a cultural exploration. J.E. Creations
+                        is redefining the modern kitchen.
+                    </p>
+                    <div class="testimonial-meta">
+                        <div class="testimonial-avatar">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&h=200&auto=format&fit=crop"
+                                alt="Marcus Chen">
+                        </div>
+                        <div class="testimonial-author">
+                            <span class="author-name">Marcus Chen</span>
+                            <span class="author-title">Lifestyle Architect</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card featured">
+                    <div class="quote-icon">“</div>
+                    <p class="testimonial-text">
+                        A private chef experience that felt less like a meal and more like a curated masterpiece.
+                        Unmatched attention to flavor and culture.
+                    </p>
+                    <div class="testimonial-meta">
+                        <div class="testimonial-avatar">
+                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&h=200&auto=format&fit=crop"
+                                alt="Elena Rodriguez">
+                        </div>
+                        <div class="testimonial-author">
+                            <span class="author-name">Elena Rodriguez</span>
+                            <span class="author-title">Cultural Consultant</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Final CTA Section -->
+    <section id="cta" class="final-cta reveal">
+        <div class="container">
+            <h2 class="cta-title">Be the First to Experience J<span class="dot-fix">.</span>E<span
+                    class="dot-fix">.</span> Creations</h2>
+            <div class="email-capture">
+                <input type="email" placeholder="Enter your email" aria-label="Email address">
+                <button class="btn nav-btn-orange">Follow the Journey</button>
+            </div>
+            <p class="cta-footer">Follow the Journey on Instagram</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer luxury-footer">
+        <div class="footer-bg-overlay"></div>
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <img src="assets/logo__2_-removebg-preview (1).png" alt="J.E. Creations Logo" class="footer-logo">
+                <p class="footer-desc">J.E. Creations — Built on Flavor. Driven by Culture. Elevating culinary
+                    experiences through passion and intentional design.</p>
+            </div>
+
+            <div class="footer-links">
+                <h4 class="footer-title">Explore</h4>
+                <ul class="footer-links-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="catering-menu.html">Services</a></li>
+                    <li><a href="date-night.html">Date Night</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h4 class="footer-title">Connect</h4>
+                <ul class="footer-links-list">
+                    <li><i class="fa-solid fa-location-dot"></i> <span>Houston, TX</span></li>
+                    <li><i class="fa-solid fa-phone"></i> <a href="tel:6788515164">(678) 851-5164</a></li>
+                    <li><i class="fa-solid fa-envelope"></i> <a href="mailto:CHEF@JECREATIONSCHEF.COM">CHEF@JECREATIONSCHEF.COM</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-social">
+                <h4 class="footer-title">Follow</h4>
+                <div class="footer-socials">
+                    <a href="https://www.instagram.com/jecreationschef/" target="_blank" class="social-icon"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>© 2024 J.E. CREATIONS. ALL RIGHTS RESERVED.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script>
+        // INITIALIZATION
+        document.addEventListener('DOMContentLoaded', () => {
+            // MOBILE MENU TOGGLE
+            const mobileToggle = document.getElementById('mobile-toggle');
+            const navMenu = document.getElementById('nav-menu');
+
+            if (mobileToggle) {
+                mobileToggle.addEventListener('click', () => {
+                    mobileToggle.classList.toggle('active');
+                    navMenu.classList.toggle('active');
+                    document.body.classList.toggle('no-scroll');
+                });
+            }
+
+            // MOBILE DROPDOWN TOGGLE
+            const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+            
+            dropdownToggles.forEach(toggle => {
+                toggle.addEventListener('click', (e) => {
+                    if (window.innerWidth <= 1100) {
+                        e.preventDefault();
+                        const parent = toggle.closest('.nav-dropdown');
+                        parent.classList.toggle('active');
+                    }
+                });
+            });
+
+            // Close menu when clicking a link
+            document.querySelectorAll('.nav-links a:not(.dropdown-toggle)').forEach(link => {
+                link.addEventListener('click', () => {
+                    if (mobileToggle) mobileToggle.classList.remove('active');
+                    if (navMenu) navMenu.classList.remove('active');
+                    document.body.classList.remove('no-scroll');
+                });
+            });
+
+            // HEADER SCROLL EFFECT
+            const nav = document.querySelector('.nav');
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 50) {
+                    nav.classList.add('scrolled');
+                } else {
+                    nav.classList.remove('scrolled');
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
